@@ -1,7 +1,7 @@
 import "./UserList.css"
 
 const UserList = ({ users, onEditUser, onDeleteUser }) => {
-    if(!users.length) return <p>Without users</p>
+    if(!users.length) return <p className="loader">Without users</p>
 
     return (
     <ul className="user_list">
