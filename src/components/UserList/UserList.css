@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45.25vh;
 }
 .user_list {
     margin: 0;
@@ -15,6 +16,7 @@
     gap: 1.2rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 11vh;
 }
 .user_card {
     position: relative;
