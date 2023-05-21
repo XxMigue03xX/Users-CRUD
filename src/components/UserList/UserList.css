@@ -1,10 +1,13 @@
 .loader {
-    font-family: "Roboto";
-    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 45.25vh;
+    margin-bottom: 50vh;
+}
+.loader p {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 3rem;
 }
 .user_list {
     margin: 0;
@@ -85,9 +88,18 @@
     align-items: center;
     cursor: pointer;
 }
-@media (max-width: 500px) {
+@media (max-width: 500px) and (max-height: 800px) {
     .user_card {
-        justify-self: center;
-        width: 80%;
+      justify-self: center;
+      width: 80%;
     }
-}
+  
+    .loader {
+      margin-bottom: 61vh;
+    }
+  
+    .user_list {
+      margin-bottom: 27vh;
+    }
+  }
+  
