@@ -88,7 +88,7 @@
         width: 80%;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 500px) {
     .user-form {
         width: 45%;
     }
